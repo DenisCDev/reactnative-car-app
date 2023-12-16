@@ -11,7 +11,7 @@ const MapScreen = () => {
         alignItems: "center",
       }}
     >
-      <Text>Map Screen</Text>
+      <Text>Tela de Mapa</Text>
     </View>
   );
 };

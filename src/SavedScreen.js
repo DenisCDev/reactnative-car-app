@@ -11,7 +11,7 @@ const SavedScreen = () => {
         alignItems: "center",
       }}
     >
-      <Text>Saved Screen</Text>
+      <Text>Tela de Salvos</Text>
     </View>
   );
 };

@@ -11,7 +11,7 @@ const SettingsScreen = () => {
         alignItems: "center",
       }}
     >
-      <Text>Settings Screen</Text>
+      <Text>Tela de Configurações</Text>
     </View>
   );
 };

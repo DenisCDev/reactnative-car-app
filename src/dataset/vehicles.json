@@ -1,64 +1,184 @@
 {
-    "vehicles": [
-      {
-        "id": 1,
-        "make": "Peugeot",
-        "model": "3008",
-        "type": "SUV",
-        "transmission": "Automatic",
-        "price_per_day": 100,
-        "description": "Discover the PEUGEOT SUV 3008 with its unique design with innovative SUV codes. Its characteristic and original design combines power and elegance with dynamism and flowing lines.",
-        "properties": {
-          "motor_power_hp": 120,
-          "fuel_type": "Diesel",
-          "engine_capacity_cc": 1560,
-          "traction": "4x2"
-        }
-      },
-      {
-        "id": 2,
-        "make": "Ford",
-        "model": "Focus",
-        "type": "Hatchback",
-        "transmission": "Automatic",
-        "price_per_day": 70,
-        "description": "The Ford Focus, known for its sharp handling and expressive design, offers an exciting driving experience. It's a versatile hatchback that's both efficient and fun to drive.",
-        "properties": {
-          "motor_power_hp": 150,
-          "fuel_type": "Petrol",
-          "engine_capacity_cc": 2000,
-          "traction": "FWD"
-        }
-      },
-      {
-        "id": 3,
-        "make": "Renault",
-        "model": "Megane",
-        "type": "Sedan",
-        "transmission": "Automatic",
-        "price_per_day": 80,
-        "description": "Renault Megane stands out with its sleek contours and sophisticated style. The sedan is equipped with advanced technology for a comfortable and safe journey.",
-        "properties": {
-          "motor_power_hp": 130,
-          "fuel_type": "Hybrid",
-          "engine_capacity_cc": 1400,
-          "traction": "AWD"
-        }
-      },
-      {
-        "id": 4,
-        "make": "Fiat",
-        "model": "Fiorino",
-        "type": "MPV",
-        "transmission": "Manual",
-        "price_per_day": 50,
-        "description": "Fiat Fiorino is a compact MPV that offers a practical and economical solution for city driving and small cargo transport. Its compact dimensions make it ideal for navigating narrow streets.",
-        "properties": {
-          "motor_power_hp": 95,
-          "fuel_type": "Petrol",
-          "engine_capacity_cc": 1300,
-          "traction": "FWD"
-        }
+  "vehicles": [
+    {
+      "id": 1,
+      "make": "BMW",
+      "model": "M4 G82",
+      "type": "Cupê",
+      "transmission": "Automática",
+      "price_per_day": 150,
+      "description": "O BMW M4 G82 combina luxo e desempenho em um cupê esportivo de elite. Com um interior refinado e tecnologia de ponta, oferece uma experiência de condução premium.",
+      "properties": {
+        "motor_power_hp": 600,
+        "fuel_type": "Gasolina",
+        "engine_capacity_cc": 4395,
+        "traction": "RWD"
       }
-    ]
+    },
+    {
+      "id": 2,
+      "make": "Mercedes-Benz",
+      "model": "C-Class",
+      "type": "Sedan",
+      "transmission": "Automática",
+      "price_per_day": 120,
+      "description": "O Mercedes-Benz Classe C combina elegância e desempenho em um sedan de elite. Com tecnologia de ponta e conforto excepcional, proporciona uma experiência de condução de alto nível.",
+      "properties": {
+        "motor_power_hp": 450,
+        "fuel_type": "Híbrido",
+        "engine_capacity_cc": 2999,
+        "traction": "AWD"
+      }
+    },
+    {
+      "id": 3,
+      "make": "Porsche",
+      "model": "Panamera",
+      "type": "Sedan",
+      "transmission": "Automática",
+      "price_per_day": 180,
+      "description": "O Porsche Panamera é um sedan de luxo que oferece desempenho excepcional e design sofisticado. Com tecnologia avançada, proporciona uma experiência de condução única.",
+      "properties": {
+        "motor_power_hp": 550,
+        "fuel_type": "Gasolina",
+        "engine_capacity_cc": 3996,
+        "traction": "AWD"
+      }
+    },
+    {
+      "id": 4,
+      "make": "Tesla",
+      "model": "Model 3",
+      "type": "Hatchback",
+      "transmission": "Elétrica",
+      "price_per_day": 110,
+      "description": "O Tesla Model 3 é um hatchback elétrico de elite que combina desempenho sustentável com tecnologia inovadora. Com um design moderno, oferece uma condução ecológica e emocionante.",
+      "properties": {
+        "motor_power_hp": 450,
+        "fuel_type": "Elétrico",
+        "engine_capacity_cc": 0,
+        "tração": "AWD"
+      }
+    },
+    {
+      "id": 5,
+      "make": "Range Rover",
+      "model": "Velar",
+      "type": "SUV",
+      "transmission": "Automática",
+      "price_per_day": 160,
+      "description": "O Range Rover Velar é um SUV de luxo que combina estilo elegante com desempenho poderoso. Com interior refinado e recursos avançados, oferece uma experiência de condução premium.",
+      "properties": {
+        "motor_power_hp": 400,
+        "fuel_type": "Diesel",
+        "engine_capacity_cc": 1997,
+        "traction": "4x4"
+      }
+    },
+    {
+      "id": 6,
+      "make": "Audi",
+      "model": "A3",
+      "type": "Hatchback",
+      "transmission": "Automática",
+      "price_per_day": 90,
+      "description": "O Audi A3 é um hatchback de elite que combina estilo e desempenho. Com um design moderno e recursos avançados, oferece uma experiência de condução emocionante.",
+      "properties": {
+        "motor_power_hp": 200,
+        "fuel_type": "Gasolina",
+        "engine_capacity_cc": 1984,
+        "traction": "FWD"
+      }
+    },
+    {
+      "id": 7,
+      "make": "McLaren",
+      "model": "Senna",
+      "type": "Supercarro",
+      "transmission": "Automática",
+      "price_per_day": 500,
+      "description": "O McLaren Senna é um supercarro de elite que combina design arrojado com desempenho excepcional. Com uma fusão de luxo e velocidade, proporciona uma experiência de condução única.",
+      "properties": {
+        "motor_power_hp": 800,
+        "fuel_type": "Gasolina",
+        "engine_capacity_cc": 3994,
+        "traction": "AWD"
+      }
+    },
+    {
+      "id": 8,
+      "make": "Nissan",
+      "model": "GT-R",
+      "type": "Sedan",
+      "transmission": "Automática",
+      "price_per_day": 450,
+      "description": "O Nissan GT-R é um sedan de elite que combina estilo esportivo com desempenho impressionante. Com tecnologia avançada, oferece uma experiência de condução emocionante.",
+      "properties": {
+        "motor_power_hp": 565,
+        "fuel_type": "Gasolina",
+        "engine_capacity_cc": 3799,
+        "traction": "AWD"
+      }
+    },
+    {
+      "id": 9,
+      "make": "Toyota",
+      "model": "Supra",
+      "type": "Cupê",
+      "transmission": "Automática",
+      "price_per_day": 600,
+      "description": "O Toyota Supra é um cupê de elite que combina design aerodinâmico com desempenho excepcional. Com uma fusão de estilo e velocidade, proporciona uma experiência de condução emocionante.",
+      "properties": {
+        "motor_power_hp": 335,
+        "fuel_type": "Gasolina",
+        "engine_capacity_cc": 2998,
+        "traction": "RWD"
+      }
+    },
+    {
+      "id": 10,
+      "make": "Ferrari",
+      "model": "SF90 Stradale",
+      "type": "Cupê",
+      "transmission": "Automática",
+      "price_per_day": 800,
+      "description": "A Ferrari SF90 Stradale é um cupê de elite que combina design exclusivo com desempenho de classe mundial. Com tecnologia híbrida avançada, proporciona uma experiência de condução única.",
+      "properties": {
+        "motor_power_hp": 1000,
+        "fuel_type": "Híbrido",
+        "engine_capacity_cc": 3990,
+        "traction": "AWD"
+      }
+    },
+    {
+      "id": 11,
+      "make": "Lamborghini",
+      "model": "Aventador",
+      "type": "Cupê",
+      "transmission": "Automática",
+      "price_per_day": 900,
+      "description": "O Lamborghini Aventador é um cupê de elite que redefine a experiência de condução. Com design arrojado e desempenho excepcional, oferece uma jornada emocionante.",
+      "properties": {
+        "motor_power_hp": 770,
+        "fuel_type": "Gasolina",
+        "engine_capacity_cc": 6498,
+        "traction": "AWD"
+      }
+    },
+    {
+      "id": 12,
+      "make": "Mitsubishi",
+      "model": "Lancer",
+      "type": "Sedan",
+      "transmission": "Automática",
+      "price_per_day": 200,
+      "description": "O Mitsubishi Lancer é um sedan que combina estilo moderno com desempenho confiável. Com tecnologia avançada, oferece uma condução suave e confortável.",
+      "properties": {
+        "motor_power_hp": 168,
+        "fuel_type": "Gasolina",
+        "engine_capacity_cc": 1998,
+        "traction": "FWD"
+      }
+    }
+  ]
 }
