@@ -97,7 +97,7 @@ const HomeScreen = ({ navigation }) => {
           </View>
         </View>
 
-        <View style={{ ...styles.typesSection, marginLeft: -8, marginRight: 5 }}>
+        <View style={{ ...styles.typesSection, margin: -8 }}>
           <Text
             style={activeType === "Todos" ? styles.typesTextActive : styles.typesText}
             onPress={() => handleTypeFilter("Todos")}
