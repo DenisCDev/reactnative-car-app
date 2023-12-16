@@ -43,6 +43,7 @@ const MapScreen = () => {
         style={styles.map}
         region={region}
         onRegionChangeComplete={(region) => setRegion(region)}
+        apiKey="AIzaSyDJQahJT1_LRC5NzvQEW0p4091rJFAib5I"
       >
         {carRentalLocations.map((location) => (
           <Marker
