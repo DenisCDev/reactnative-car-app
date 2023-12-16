@@ -33,7 +33,7 @@ const MapScreen = () => {
   const [region, setRegion] = useState({
     latitude: -23.011021,
     longitude: -43.322078,
-    latitudeDelta: 35.015,
+    latitudeDelta: 0.015,
     longitudeDelta: 0.0121,
   });
 
@@ -43,7 +43,7 @@ const MapScreen = () => {
         style={styles.map}
         region={region}
         onRegionChangeComplete={(region) => setRegion(region)}
-        apiKey="AIzaSyDJQahJT1_LRC5NzvQEW0p4091rJFAib5I"
+        key="AIzaSyDJQahJT1_LRC5NzvQEW0p4091rJFAib5I"
       >
         {carRentalLocations.map((location) => (
           <Marker
