@@ -11,4 +11,4 @@ O aplicativo possui as seguintes funcionalidades:
 Zoom e pan no mapa
 
 
-# <a href='https://expo.dev/artifacts/eas/ms2KgT9SvxJR34Xj8DuxcW.apk' target='_blank'>Baixe por este link</a>
+# <a href='https://expo.dev/artifacts/eas/hkNGeLctdBkCWGppyNFfX.apk' target='_blank'>Baixe por este link</a>
