@@ -30,21 +30,18 @@ const carRentalLocations = [
 ];
 
 const MapScreen = () => {
-  // Ajustando a região inicial para o centro do Brasil
-  const initialRegion = {
-    latitude: -15.833333,
-    longitude: -47.833333,
-    latitudeDelta: 60, // Diminuindo o zoom para mostrar todo o Brasil
-    longitudeDelta: 0.3,
-  };
-
-  const [region, setRegion] = useState(initialRegion);
+  const [region, setRegion] = useState({
+    latitude: -23.011021,
+    longitude: -43.322078,
+    latitudeDelta: 35.015,
+    longitudeDelta: 0.0121,
+  });
 
   return (
     <View style={styles.container}>
       <MapView
         style={styles.map}
-        initialRegion={initialRegion} // Definindo a região inicial
+        region={region}
         onRegionChangeComplete={(region) => setRegion(region)}
       >
         {carRentalLocations.map((location) => (
