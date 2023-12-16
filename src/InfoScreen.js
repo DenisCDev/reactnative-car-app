@@ -89,7 +89,7 @@ const InfoScreen = ({ route, navigation }) => {
         </View>
 
         <Text style={styles.descriptionText}>{vehicle.description}</Text>
-        <Text style={styles.propertiesText}>Properties</Text>
+        <Text style={styles.propertiesText}>Informações</Text>
 
         <View style={styles.propertiesArea}>
           <View style={styles.level}>
