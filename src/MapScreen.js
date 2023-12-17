@@ -2,39 +2,71 @@ import React, { useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
 
-const carRentalLocations = [
+const MarkerData = [
   {
-    name: 'Hertz Prestige Collection - Barra da Tijuca',
-    address: 'Avenida Lúcio Costa, 3000, Barra da Tijuca, Rio de Janeiro',
+    name: 'Rio de Janeiro',
     coordinates: {
-      latitude: -23.011021,
-      longitude: -43.322078,
+      latitude: -22.907128,
+      longitude: -43.195932,
     },
   },
   {
-    name: 'Sixt Luxury Collection - Ibirapuera',
-    address: 'Avenida Ibirapuera, 3135, Ibirapuera, São Paulo',
+    name: 'São Paulo',
     coordinates: {
       latitude: -23.557539,
       longitude: -46.632182,
     },
   },
   {
-    name: 'Dreams Luxury Cars - Gramado',
-    address: 'Rua Bela Vista, 100, Centro, Gramado, Rio Grande do Sul',
+    name: 'Belo Horizonte',
     coordinates: {
-      latitude: -29.534722,
-      longitude: -50.843333,
+      latitude: -19.925788,
+      longitude: -43.930878,
+    },
+  },
+  {
+    name: 'Salvador',
+    coordinates: {
+      latitude: -12.971707,
+      longitude: -38.516708,
+    },
+  },
+  {
+    name: 'Fortaleza',
+    coordinates: {
+      latitude: -3.750889,
+      longitude: -38.516708,
+    },
+  },
+  {
+    name: 'Curitiba',
+    coordinates: {
+      latitude: -25.432104,
+      longitude: -49.275726,
+    },
+  },
+  {
+    name: 'Porto Alegre',
+    coordinates: {
+      latitude: -30.038143,
+      longitude: -51.222169,
+    },
+  },
+  {
+    name: 'Manaus',
+    coordinates: {
+      latitude: -3.053736,
+      longitude: -60.022025,
     },
   },
 ];
 
 const MapScreen = () => {
   const [region, setRegion] = useState({
-    latitude: -23.011021,
-    longitude: -43.322078,
-    latitudeDelta: 0.015,
-    longitudeDelta: 0.0121,
+    latitude: -15.782037,
+    longitude: -47.922773,
+    latitudeDelta: 10,
+    longitudeDelta: 10,
   });
 
   return (
@@ -45,13 +77,12 @@ const MapScreen = () => {
         onRegionChangeComplete={(region) => setRegion(region)}
         key="AIzaSyDJQahJT1_LRC5NzvQEW0p4091rJFAib5I"
       >
-        {carRentalLocations.map((location) => (
+        {MarkerData.map((location) => (
           <Marker
             key={location.name}
             coordinate={location.coordinates}
             title={location.name}
-            description={location.address}
-          />
+           />
         ))}
       </MapView>
     </View>
