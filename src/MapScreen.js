@@ -1,101 +1,55 @@
-import React, { useState } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { useState } from 'react'
 import MapView, { Marker } from 'react-native-maps';
+import { StyleSheet, View, Text, Dimensions } from 'react-native';
 
-const MarkerData = [
-  {
-    name: 'Rio de Janeiro',
-    coordinates: {
-      latitude: -22.907128,
-      longitude: -43.195932,
-    },
-  },
-  {
-    name: 'São Paulo',
-    coordinates: {
-      latitude: -23.557539,
-      longitude: -46.632182,
-    },
-  },
-  {
-    name: 'Belo Horizonte',
-    coordinates: {
-      latitude: -19.925788,
-      longitude: -43.930878,
-    },
-  },
-  {
-    name: 'Salvador',
-    coordinates: {
-      latitude: -12.971707,
-      longitude: -38.516708,
-    },
-  },
-  {
-    name: 'Fortaleza',
-    coordinates: {
-      latitude: -3.750889,
-      longitude: -38.516708,
-    },
-  },
-  {
-    name: 'Curitiba',
-    coordinates: {
-      latitude: -25.432104,
-      longitude: -49.275726,
-    },
-  },
-  {
-    name: 'Porto Alegre',
-    coordinates: {
-      latitude: -30.038143,
-      longitude: -51.222169,
-    },
-  },
-  {
-    name: 'Manaus',
-    coordinates: {
-      latitude: -3.053736,
-      longitude: -60.022025,
-    },
-  },
-];
 
-const MapScreen = () => {
+// const ASPECT_RATIO = width / height;
+// const LATITUDE = 37.78825;
+// const LONGITUDE = -122.4324;
+// const LATITUDE_DELTA = 0.0922;
+// const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
+// const SPACE = 0.01;
+
+
+function MapScreen() {
+
   const [region, setRegion] = useState({
-    latitude: -15.782037,
-    longitude: -47.922773,
-    latitudeDelta: 10,
-    longitudeDelta: 10,
+    latitude: -23.006611,
+    longitude: -43.320278,
+    latitudeDelta: 0.009,
+    longitudeDelta: 0.009
   });
+
 
   return (
     <View style={styles.container}>
       <MapView
         style={styles.map}
         region={region}
-        onRegionChangeComplete={(region) => setRegion(region)}
-        key="AIzaSyDJQahJT1_LRC5NzvQEW0p4091rJFAib5I"
+        onRegionChangeComplete={region => setRegion(region)}
       >
-        {MarkerData.map((location) => (
-          <Marker
-            key={location.name}
-            coordinate={location.coordinates}
-            title={location.name}
-           />
-        ))}
+        <Marker coordinate={{ latitude: -23.006611, longitude: -43.320278 }} />
       </MapView>
+
     </View>
-  );
-};
+  )
+}
+
+export default MapScreen
+
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    ...StyleSheet.absoluteFillObject,
+    justifyContent: 'flex-end',
+    alignItems: 'center',
   },
   map: {
-    flex: 1,
+    ...StyleSheet.absoluteFillObject,
+  },
+  marker: {
+    marginLeft: 46,
+    marginTop: 33,
+    fontWeight: 'bold',
   },
 });
-
-export default MapScreen;
