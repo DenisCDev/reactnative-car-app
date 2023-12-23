@@ -23,6 +23,16 @@ const image_v_9 = require("./assets/vehicles/v-9.png");
 const image_v_10 = require("./assets/vehicles/v-10.png");
 const image_v_11 = require("./assets/vehicles/v-11.png");
 const image_v_12 = require("./assets/vehicles/v-12.png");
+const image_v_13 = require("./assets/vehicles/v-13.png");
+const image_v_14 = require("./assets/vehicles/v-14.png");
+const image_v_15 = require("./assets/vehicles/v-15.png");
+const image_v_16 = require("./assets/vehicles/v-16.png");
+const image_v_17 = require("./assets/vehicles/v-17.png");
+const image_v_18 = require("./assets/vehicles/v-18.png");
+const image_v_19 = require("./assets/vehicles/v-19.png");
+const image_v_20 = require("./assets/vehicles/v-20.png");
+const image_v_21 = require("./assets/vehicles/v-21.png");
+const logo = require("./assets/emozione.png")
 
 const HomeScreen = ({ navigation }) => {
   const [vehicles, setVehicles] = useState(data.vehicles);
@@ -42,6 +52,15 @@ const HomeScreen = ({ navigation }) => {
     if (id == 10) return image_v_10;
     if (id == 11) return image_v_11;
     if (id == 12) return image_v_12;
+    if (id == 13) return image_v_13;
+    if (id == 14) return image_v_14;
+    if (id == 15) return image_v_15;
+    if (id == 16) return image_v_16;
+    if (id == 17) return image_v_17;
+    if (id == 18) return image_v_18;
+    if (id == 19) return image_v_19;
+    if (id == 20) return image_v_20;
+    if (id == 21) return image_v_21;
   };
 
   const searchVehicles = (keyword) => {
@@ -77,7 +96,10 @@ const HomeScreen = ({ navigation }) => {
         </View>
 
         <View style={styles.titleSection}>
-          <Text style={styles.title}>Alugue seu Carro</Text>
+          <Image
+            source={require('./assets/emozione.png')} // Substitua pelo caminho da sua imagem
+            style={styles.titleImage}
+          />
         </View>
 
         <View style={styles.searchSection}>
@@ -97,12 +119,18 @@ const HomeScreen = ({ navigation }) => {
           </View>
         </View>
 
-        <View style={{ ...styles.typesSection, margin: -8 }}>
+        <View style={{ ...styles.typesSection }}>
           <Text
             style={activeType === "Todos" ? styles.typesTextActive : styles.typesText}
             onPress={() => handleTypeFilter("Todos")}
           >
             Todos
+          </Text>
+          <Text
+            style={activeType === "Carro" ? styles.typesTextActive : styles.typesText}
+            onPress={() => handleTypeFilter("Carro")}
+          >
+            Carro
           </Text>
           <Text
             style={activeType === "SUV" ? styles.typesTextActive : styles.typesText}
@@ -111,27 +139,15 @@ const HomeScreen = ({ navigation }) => {
             SUV
           </Text>
           <Text
-            style={activeType === "Sedan" ? styles.typesTextActive : styles.typesText}
-            onPress={() => handleTypeFilter("Sedan")}
+            style={activeType === "Elétrico" ? styles.typesTextActive : styles.typesText}
+            onPress={() => handleTypeFilter("Elétrico")}
           >
-            Sedan
-          </Text>
-          <Text
-            style={activeType === "Cupê" ? styles.typesTextActive : styles.typesText}
-            onPress={() => handleTypeFilter("Cupê")}
-          >
-            Cupê
-          </Text>
-          <Text
-            style={activeType === "Supercarro" ? styles.typesTextActive : styles.typesText}
-            onPress={() => handleTypeFilter("Supercarro")}
-          >
-            Supercarro
+            Elétrico
           </Text>
         </View>
 
         <View style={styles.listSection}>
-          <Text style={styles.headText}>Mais Alugados</Text>
+          <Text style={styles.headText}>Disponíveis</Text>
 
           <ScrollView style={styles.elementPallet}>
             {filteredVehicles.map((vehicle) => {
@@ -193,6 +209,13 @@ const styles = StyleSheet.create({
 
   titleSection: {
     marginTop: 15,
+  },
+  titleImage: {
+    marginTop: 10,
+    width: '100%',
+    height: 40,
+    resizeMode: 'cover',
+    borderRadius: 5,
   },
   title: {
     fontSize: 32,

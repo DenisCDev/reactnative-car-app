@@ -24,6 +24,12 @@ const image_v_9 = require("./assets/vehicles/v-9.png");
 const image_v_10 = require("./assets/vehicles/v-10.png");
 const image_v_11 = require("./assets/vehicles/v-11.png");
 const image_v_12 = require("./assets/vehicles/v-12.png");
+const image_v_13 = require("./assets/vehicles/v-13.png");
+const image_v_14 = require("./assets/vehicles/v-14.png");
+const image_v_15 = require("./assets/vehicles/v-15.png");
+const image_v_16 = require("./assets/vehicles/v-16.png");
+const image_v_17 = require("./assets/vehicles/v-17.png");
+const image_v_18 = require("./assets/vehicles/v-18.png");
 
 const InfoScreen = ({ route, navigation }) => {
   const vehicle = data.vehicles.filter(
@@ -42,6 +48,15 @@ const InfoScreen = ({ route, navigation }) => {
     if (id == 10) return image_v_10;
     if (id == 11) return image_v_11;
     if (id == 12) return image_v_12;
+    if (id == 13) return image_v_13;
+    if (id == 14) return image_v_14;
+    if (id == 15) return image_v_15;
+    if (id == 16) return image_v_16;
+    if (id == 17) return image_v_17;
+    if (id == 18) return image_v_18;
+    if (id == 19) return image_v_19;
+    if (id == 20) return image_v_20;
+    if (id == 21) return image_v_21;
   };
 
   return (

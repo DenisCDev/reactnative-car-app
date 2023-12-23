@@ -4,9 +4,9 @@
       "id": 1,
       "make": "BMW",
       "model": "M4 G82",
-      "type": "Cupê",
-      "transmission": "Automática",
-      "price_per_day": 150,
+      "type": "Carro",
+      "transmission": "Automático",
+      "price_per_day": 250,
       "description": "O BMW M4 G82 combina luxo e desempenho em um cupê esportivo de elite. Com um interior refinado e tecnologia de ponta, oferece uma experiência de condução premium.",
       "properties": {
         "motor_power_hp": 600,
@@ -17,27 +17,27 @@
     },
     {
       "id": 2,
-      "make": "Mercedes-Benz",
-      "model": "C-Class",
-      "type": "Sedan",
-      "transmission": "Automática",
-      "price_per_day": 120,
-      "description": "O Mercedes-Benz Classe C combina elegância e desempenho em um sedan de elite. Com tecnologia de ponta e conforto excepcional, proporciona uma experiência de condução de alto nível.",
+      "make": "Ferrari",
+      "model": "488 GTB",
+      "type": "Carro",
+      "transmission": "Automático",
+      "price_per_day": 500,
+      "description": "A Ferrari 488 GTB é uma obra-prima de engenharia italiana, combinando elegância com alta performance. Uma experiência única de condução.",
       "properties": {
-        "motor_power_hp": 450,
-        "fuel_type": "Híbrido",
-        "engine_capacity_cc": 2999,
-        "traction": "AWD"
+        "motor_power_hp": 661,
+        "fuel_type": "Gasolina",
+        "engine_capacity_cc": 3902,
+        "traction": "RWD"
       }
     },
     {
       "id": 3,
       "make": "Porsche",
-      "model": "Panamera",
-      "type": "Sedan",
-      "transmission": "Automática",
-      "price_per_day": 180,
-      "description": "O Porsche Panamera é um sedan de luxo que oferece desempenho excepcional e design sofisticado. Com tecnologia avançada, proporciona uma experiência de condução única.",
+      "model": "911",
+      "type": "Carro",
+      "transmission": "Automático",
+      "price_per_day": 300,
+      "description": "O Porsche 911 é um cupê esportivo de dois lugares que oferece desempenho excepcional e design sofisticado. Com tecnologia avançada, proporciona uma experiência de condução única.",
       "properties": {
         "motor_power_hp": 550,
         "fuel_type": "Gasolina",
@@ -47,137 +47,272 @@
     },
     {
       "id": 4,
-      "make": "Tesla",
-      "model": "Model 3",
-      "type": "Hatchback",
-      "transmission": "Elétrica",
-      "price_per_day": 110,
-      "description": "O Tesla Model 3 é um hatchback elétrico de elite que combina desempenho sustentável com tecnologia inovadora. Com um design moderno, oferece uma condução ecológica e emocionante.",
+      "make": "Mercedes-Benz",
+      "model": "C-Class",
+      "type": "Carro",
+      "transmission": "Automático",
+      "price_per_day": 220,
+      "description": "O Mercedes-Benz Classe C combina elegância e desempenho em um sedan de elite. Com tecnologia de ponta e conforto excepcional, proporciona uma experiência de condução de alto nível.",
       "properties": {
         "motor_power_hp": 450,
-        "fuel_type": "Elétrico",
-        "engine_capacity_cc": 0,
-        "tração": "AWD"
+        "fuel_type": "Híbrido",
+        "engine_capacity_cc": 2999,
+        "traction": "AWD"
       }
     },
     {
       "id": 5,
-      "make": "Range Rover",
-      "model": "Velar",
+      "make": "Volvo",
+      "model": "XC90",
       "type": "SUV",
-      "transmission": "Automática",
-      "price_per_day": 160,
-      "description": "O Range Rover Velar é um SUV de luxo que combina estilo elegante com desempenho poderoso. Com interior refinado e recursos avançados, oferece uma experiência de condução premium.",
+      "transmission": "Automático",
+      "price_per_day": 280,
+      "description": "O Volvo XC90 é um SUV elegante com um interior luxuoso e recursos de segurança avançados.",
       "properties": {
-        "motor_power_hp": 400,
-        "fuel_type": "Diesel",
-        "engine_capacity_cc": 1997,
-        "traction": "4x4"
+        "motor_power_hp": 316,
+        "fuel_type": "Gasolina",
+        "engine_capacity_cc": 1969,
+        "traction": "AWD"
       }
     },
     {
       "id": 6,
-      "make": "Audi",
-      "model": "A3",
-      "type": "Hatchback",
-      "transmission": "Automática",
-      "price_per_day": 90,
-      "description": "O Audi A3 é um hatchback de elite que combina estilo e desempenho. Com um design moderno e recursos avançados, oferece uma experiência de condução emocionante.",
+      "make": "Tesla",
+      "model": "Model S",
+      "type": "Elétrico",
+      "transmission": "Automático",
+      "price_per_day": 400,
+      "description": "O Tesla Model S é um carro elétrico premium com autonomia impressionante e tecnologia inovadora.",
       "properties": {
-        "motor_power_hp": 200,
-        "fuel_type": "Gasolina",
-        "engine_capacity_cc": 1984,
-        "traction": "FWD"
+        "motor_power_hp": 670,
+        "fuel_type": "Elétrico",
+        "engine_capacity_cc": 100,
+        "traction": "AWD"
       }
     },
     {
       "id": 7,
-      "make": "McLaren",
-      "model": "Senna",
-      "type": "Supercarro",
-      "transmission": "Automática",
-      "price_per_day": 500,
-      "description": "O McLaren Senna é um supercarro de elite que combina design arrojado com desempenho excepcional. Com uma fusão de luxo e velocidade, proporciona uma experiência de condução única.",
+      "make": "Audi",
+      "model": "R8",
+      "type": "Carro",
+      "transmission": "Automático",
+      "price_per_day": 400,
+      "description": "O Audi R8 é um supercarro com design futurista e desempenho de tirar o fôlego. Experimente a emoção da velocidade.",
       "properties": {
-        "motor_power_hp": 800,
+        "motor_power_hp": 562,
         "fuel_type": "Gasolina",
-        "engine_capacity_cc": 3994,
+        "engine_capacity_cc": 5204,
         "traction": "AWD"
       }
     },
     {
       "id": 8,
-      "make": "Nissan",
-      "model": "GT-R",
-      "type": "Sedan",
-      "transmission": "Automática",
-      "price_per_day": 450,
-      "description": "O Nissan GT-R é um sedan de elite que combina estilo esportivo com desempenho impressionante. Com tecnologia avançada, oferece uma experiência de condução emocionante.",
+      "make": "Mercedes-Benz",
+      "model": "GLE",
+      "type": "SUV",
+      "transmission": "Automático",
+      "price_per_day": 350,
+      "description": "O Mercedes-Benz GLE é um SUV sofisticado com tecnologia avançada e espaço generoso para passageiros e bagagens.",
       "properties": {
-        "motor_power_hp": 565,
+        "motor_power_hp": 362,
         "fuel_type": "Gasolina",
-        "engine_capacity_cc": 3799,
+        "engine_capacity_cc": 2999,
         "traction": "AWD"
       }
     },
     {
       "id": 9,
-      "make": "Toyota",
-      "model": "Supra",
-      "type": "Cupê",
-      "transmission": "Automática",
-      "price_per_day": 600,
-      "description": "O Toyota Supra é um cupê de elite que combina design aerodinâmico com desempenho excepcional. Com uma fusão de estilo e velocidade, proporciona uma experiência de condução emocionante.",
+      "make": "Jaguar",
+      "model": "I-PACE",
+      "type": "Elétrico",
+      "transmission": "Automático",
+      "price_per_day": 450,
+      "description": "O Jaguar I-PACE é um SUV elétrico de luxo com design elegante e desempenho emocionante.",
       "properties": {
-        "motor_power_hp": 335,
-        "fuel_type": "Gasolina",
-        "engine_capacity_cc": 2998,
-        "traction": "RWD"
+        "motor_power_hp": 394,
+        "fuel_type": "Elétrico",
+        "engine_capacity_cc": 90,
+        "traction": "AWD"
       }
     },
     {
       "id": 10,
-      "make": "Ferrari",
-      "model": "SF90 Stradale",
-      "type": "Cupê",
-      "transmission": "Automática",
-      "price_per_day": 800,
-      "description": "A Ferrari SF90 Stradale é um cupê de elite que combina design exclusivo com desempenho de classe mundial. Com tecnologia híbrida avançada, proporciona uma experiência de condução única.",
+      "make": "Chevrolet",
+      "model": "Corvette",
+      "type": "Carro",
+      "transmission": "Automático",
+      "price_per_day": 300,
+      "description": "O Chevrolet Corvette é um clássico americano com um toque esportivo. Desfrute de potência e estilo em um único pacote.",
       "properties": {
-        "motor_power_hp": 1000,
-        "fuel_type": "Híbrido",
-        "engine_capacity_cc": 3990,
-        "traction": "AWD"
+        "motor_power_hp": 495,
+        "fuel_type": "Gasolina",
+        "engine_capacity_cc": 6162,
+        "traction": "RWD"
       }
     },
     {
       "id": 11,
       "make": "Lamborghini",
-      "model": "Aventador",
-      "type": "Cupê",
-      "transmission": "Automática",
-      "price_per_day": 900,
-      "description": "O Lamborghini Aventador é um cupê de elite que redefine a experiência de condução. Com design arrojado e desempenho excepcional, oferece uma jornada emocionante.",
+      "model": "Huracán",
+      "type": "Carro",
+      "transmission": "Automático",
+      "price_per_day": 600,
+      "description": "O Lamborghini Huracán é um carro esportivo exótico que combina desempenho extremo com um design arrojado e emocionante.",
       "properties": {
-        "motor_power_hp": 770,
+        "motor_power_hp": 631,
         "fuel_type": "Gasolina",
-        "engine_capacity_cc": 6498,
+        "engine_capacity_cc": 5204,
         "traction": "AWD"
       }
     },
     {
       "id": 12,
-      "make": "Mitsubishi",
-      "model": "Lancer",
-      "type": "Sedan",
-      "transmission": "Automática",
-      "price_per_day": 200,
-      "description": "O Mitsubishi Lancer é um sedan que combina estilo moderno com desempenho confiável. Com tecnologia avançada, oferece uma condução suave e confortável.",
+      "make": "Aston Martin",
+      "model": "DB11",
+      "type": "Carro",
+      "transmission": "Automático",
+      "price_per_day": 450,
+      "description": "O Aston Martin DB11 é um elegante carro esportivo de luxo, oferecendo uma combinação de desempenho impressionante e design refinado.",
       "properties": {
-        "motor_power_hp": 168,
+        "motor_power_hp": 600,
         "fuel_type": "Gasolina",
-        "engine_capacity_cc": 1998,
-        "traction": "FWD"
+        "engine_capacity_cc": 3982,
+        "traction": "RWD"
+      }
+    },
+    {
+      "id": 13,
+      "make": "Porsche",
+      "model": "Cayman",
+      "type": "Carro",
+      "transmission": "Automático",
+      "price_per_day": 400,
+      "description": "O Porsche Cayman é um carro esportivo de alto desempenho, conhecido por sua agilidade e estilo distintivo.",
+      "properties": {
+        "motor_power_hp": 350,
+        "fuel_type": "Gasolina",
+        "engine_capacity_cc": 2893,
+        "traction": "RWD"
+      }
+    },
+    {
+      "id": 14,
+      "make": "Land Rover",
+      "model": "Range Rover Velar",
+      "type": "SUV",
+      "transmission": "Automático",
+      "price_per_day": 350,
+      "description": "O Land Rover Range Rover Velar é um SUV de luxo que combina elegância, desempenho e tecnologia inovadora.",
+      "properties": {
+        "motor_power_hp": 340,
+        "fuel_type": "Gasolina",
+        "engine_capacity_cc": 2995,
+        "traction": "AWD"
+      }
+    },
+    {
+      "id": 15,
+      "make": "Bentley",
+      "model": "Bentayga",
+      "type": "SUV",
+      "transmission": "Automático",
+      "price_per_day": 700,
+      "description": "O Bentley Bentayga é um SUV de luxo que oferece conforto supremo, desempenho poderoso e um interior requintado.",
+      "properties": {
+        "motor_power_hp": 542,
+        "fuel_type": "Gasolina",
+        "engine_capacity_cc": 3996,
+        "traction": "AWD"
+      }
+    },
+    {
+      "id": 16,
+      "make": "Rolls-Royce",
+      "model": "Cullinan",
+      "type": "SUV",
+      "transmission": "Automático",
+      "price_per_day": 800,
+      "description": "O Rolls-Royce Cullinan é um SUV de ultra luxo que redefine o conforto e a sofisticação em viagens.",
+      "properties": {
+        "motor_power_hp": 563,
+        "fuel_type": "Gasolina",
+        "engine_capacity_cc": 6749,
+        "traction": "AWD"
+      }
+    },
+    {
+      "id": 17,
+      "make": "Tesla",
+      "model": "Model X",
+      "type": "Elétrico",
+      "transmission": "Automático",
+      "price_per_day": 600,
+      "description": "O Tesla Model X é um SUV elétrico com desempenho surpreendente, características inovadoras e um design distintivo de portas de falcão.",
+      "properties": {
+        "motor_power_hp": 670,
+        "fuel_type": "Elétrico",
+        "engine_capacity_cc": 100,
+        "traction": "AWD"
+      }
+    },
+    {
+      "id": 18,
+      "make": "Jaguar",
+      "model": "F-PACE",
+      "type": "SUV",
+      "transmission": "Automático",
+      "price_per_day": 550,
+      "description": "O Jaguar F-PACE é um SUV esportivo com design elegante e desempenho dinâmico, combinando luxo e agilidade.",
+      "properties": {
+        "motor_power_hp": 395,
+        "fuel_type": "Gasolina",
+        "engine_capacity_cc": 2996,
+        "traction": "AWD"
+      }
+    },
+    {
+      "id": 19,
+      "make": "Audi",
+      "model": "e-tron GT",
+      "type": "Elétrico",
+      "transmission": "Automático",
+      "price_per_day": 500,
+      "description": "O Audi e-tron GT é um sedã elétrico de alto desempenho, combinando elegância e tecnologia avançada.",
+      "properties": {
+        "motor_power_hp": 522,
+        "fuel_type": "Elétrico",
+        "engine_capacity_cc": 93,
+        "traction": "AWD"
+      }
+    },
+    {
+      "id": 20,
+      "make": "Maserati",
+      "model": "Levante",
+      "type": "SUV",
+      "transmission": "Automático",
+      "price_per_day": 650,
+      "description": "O Maserati Levante é um SUV de luxo que oferece desempenho esportivo e um interior elegante, capturando a essência da marca italiana.",
+      "properties": {
+        "motor_power_hp": 424,
+        "fuel_type": "Gasolina",
+        "engine_capacity_cc": 2979,
+        "traction": "AWD"
+      }
+    },
+    {
+      "id": 21,
+      "make": "Porsche",
+      "model": "Taycan",
+      "type": "Elétrico",
+      "transmission": "Automático",
+      "price_per_day": 650,
+      "description": "O Porsche Taycan é um sedã elétrico de alta performance, combinando a tradição esportiva da marca com a inovação elétrica.",
+      "properties": {
+        "motor_power_hp": 670,
+        "fuel_type": "Elétrico",
+        "engine_capacity_cc": 93,
+        "traction": "AWD"
       }
     }
   ]
