@@ -9,4 +9,4 @@ O aplicativo possui as seguintes funcionalidades:
 - Visualização dos detalhes técnicos dos carros
 
 
-# <a href='https://expo.dev/artifacts/eas/w2a77RCeCoskVvN8n83eNi.apk' target='_blank'>Baixe por este link</a>
+# <a href='https://expo.dev/artifacts/eas/f2uDXme3mbrqkYxHAUoH7M.apk' target='_blank'>Baixe por este link</a>
