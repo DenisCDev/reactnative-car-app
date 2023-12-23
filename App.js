@@ -53,8 +53,6 @@ export default function App() {
               iconName = focused ? homeIcon_active : homeIcon;
             } else if (route.name === "Map") {
               iconName = focused ? compass_active : compass;
-            } else if (route.name === "Saved") {
-              iconName = focused ? savedIcon_active : savedIcon;
             } else if (route.name === "Settings") {
               iconName = focused ? settingsIcon_active : settingsIcon;
             }
@@ -75,7 +73,6 @@ export default function App() {
       >
       <Tab.Screen name="Home" component={HomeStack} />
       <Tab.Screen name="Map" component={MapScreen} />
-      <Tab.Screen name="Saved" component={SavedScreen} />
       <Tab.Screen name="Settings" component={SettingsScreen} />
       </Tab.Navigator>
     </NavigationContainer>
