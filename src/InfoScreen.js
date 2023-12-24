@@ -30,6 +30,9 @@ const image_v_15 = require("./assets/vehicles/v-15.png");
 const image_v_16 = require("./assets/vehicles/v-16.png");
 const image_v_17 = require("./assets/vehicles/v-17.png");
 const image_v_18 = require("./assets/vehicles/v-18.png");
+const image_v_19 = require("./assets/vehicles/v-19.png");
+const image_v_20 = require("./assets/vehicles/v-20.png");
+const image_v_21 = require("./assets/vehicles/v-21.png");
 
 const InfoScreen = ({ route, navigation }) => {
   const vehicle = data.vehicles.filter(
